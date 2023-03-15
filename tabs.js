@@ -10,6 +10,7 @@ requestIdleCallback(function () {
     line.style.width = tabActive.offsetWidth + "px";
   });
 
+  
 tabItem.forEach((tab, index) => {
     const pane = paneItem[index];
     tab.onclick = function () {
